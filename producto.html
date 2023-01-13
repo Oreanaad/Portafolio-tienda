@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+
+</head>
+<body>
+    <header class="header"> <!--Bloque-->
+
+        <a href="index.html"> <!--elementos del bloque-->
+            <img class="header__logo" src="img/logo.png" alt="logotipo"> <!--texto alternativo obligatorio-->
+        </a>
+    </header>
+
+    <nav class="navegacion"> <!--Bloque-->
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a> <!--Modificador-->
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a> <!--elemento-->
+    </nav>
+
+    <main class="contenedor">
+        <h1>React js</h1>
+     <div class="camisa">
+        <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+
+        <div class="camisa__contenido">
+            <p>Aenean consectetur tellus neque, sed viverra quam vulputate eu. Proin fringilla, metus eget luctus aliquam, magna ante elementum lectus, id sodales erat lectus a metus. In ac lorem enim. Proin tincidunt sapien id orci feugiat, et interdum lorem rutrum. Curabitur ac mollis ipsum. Integer nec velit a odio egestas tincidunt eu id ante. Phasellus accumsan eu enim id aliquam. Aliquam eget suscipit est, non pellentesque nisl. Cras vitae mauris rutrum, fringilla elit ac, cursus odio. Vivamus non neque semper, aliquam elit et, tempus urna. Integer nec ipsum in velit tempus iaculis in quis nisl. Integer quis sem ut est tincidunt vestibulum sit amet ut dolor. In imperdiet, eros lacinia vehicula tincidunt, massa libero egestas ex, non lobortis mauris sapien a ex. Sed sodales, nisl nec maximus tincidunt, felis dolor pretium dolor, posuere vulputate dui sapien et ante. Praesent et felis pharetra, consectetur orci ut, porta velit.
+            </p>   
+            <form class="formulario">
+             <select class="formulario__campo">
+                <option disabled selected>-- seleccionar talla --</option>
+                <option>chica</option>
+                <option>mediana</option>
+                <option>grande</option>
+             </select>
+             <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+
+             <input class="formulario__submit"  type="submit" value="Agregar al carrito">
+            </form>
+        </div>
+        </div>
+    </main>
+
+    <footer class="footer"> <!--BLoque-->
+        <p class="footer__texto">Front End Store - Todos los derechos reservados</p> <!--elemento-->
+    </footer>
+</body>
+</html>
